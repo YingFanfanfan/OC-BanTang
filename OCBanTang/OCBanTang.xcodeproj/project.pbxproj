@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4021A121CFC612800C61B52 /* BTTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B4021A111CFC612800C61B52 /* BTTabBarVC.m */; };
+		B4C00DA51CFAC86B00CF2644 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C00DA41CFAC86B00CF2644 /* main.m */; };
+		B4C00DA81CFAC86B00CF2644 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C00DA71CFAC86B00CF2644 /* AppDelegate.m */; };
+		B4C00DB01CFAC86B00CF2644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4C00DAF1CFAC86B00CF2644 /* Assets.xcassets */; };
+		B4C00DB31CFAC86B00CF2644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4C00DB11CFAC86B00CF2644 /* LaunchScreen.storyboard */; };
+		B4EFBFFF1CFC69AB0014DCBD /* BTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EFBFFE1CFC69AB0014DCBD /* BTHomeViewController.m */; };
+		B4EFC0021CFC69BE0014DCBD /* BTDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EFC0011CFC69BE0014DCBD /* BTDiscoverViewController.m */; };
+		B4EFC0051CFC69D00014DCBD /* BTMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EFC0041CFC69D00014DCBD /* BTMessageViewController.m */; };
+		B4EFC0081CFC69F00014DCBD /* BTAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EFC0071CFC69F00014DCBD /* BTAccountViewController.m */; };
+		B4EFC00B1CFC6A000014DCBD /* BTSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EFC00A1CFC6A000014DCBD /* BTSettingViewController.m */; };
+		B4EFC00E1CFC6B030014DCBD /* BTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EFC00D1CFC6B030014DCBD /* BTNavigationController.m */; };
+		B4EFC0111CFC70CA0014DCBD /* BTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EFC0101CFC70CA0014DCBD /* BTTabBar.m */; };
+		B4EFC0171CFC75670014DCBD /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EFC0161CFC75670014DCBD /* UIView+Frame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B4021A101CFC612800C61B52 /* BTTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTabBarVC.h; sourceTree = "<group>"; };
+		B4021A111CFC612800C61B52 /* BTTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTabBarVC.m; sourceTree = "<group>"; };
+		B4C00DA01CFAC86B00CF2644 /* OCBanTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCBanTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4C00DA41CFAC86B00CF2644 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4C00DA61CFAC86B00CF2644 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		B4C00DA71CFAC86B00CF2644 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
+		B4C00DAF1CFAC86B00CF2644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4C00DB21CFAC86B00CF2644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4C00DB41CFAC86B00CF2644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4EFBFFD1CFC69AB0014DCBD /* BTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHomeViewController.h; sourceTree = "<group>"; };
+		B4EFBFFE1CFC69AB0014DCBD /* BTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHomeViewController.m; sourceTree = "<group>"; };
+		B4EFC0001CFC69BE0014DCBD /* BTDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDiscoverViewController.h; sourceTree = "<group>"; };
+		B4EFC0011CFC69BE0014DCBD /* BTDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDiscoverViewController.m; sourceTree = "<group>"; };
+		B4EFC0031CFC69D00014DCBD /* BTMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMessageViewController.h; sourceTree = "<group>"; };
+		B4EFC0041CFC69D00014DCBD /* BTMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMessageViewController.m; sourceTree = "<group>"; };
+		B4EFC0061CFC69F00014DCBD /* BTAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAccountViewController.h; sourceTree = "<group>"; };
+		B4EFC0071CFC69F00014DCBD /* BTAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAccountViewController.m; sourceTree = "<group>"; };
+		B4EFC0091CFC6A000014DCBD /* BTSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSettingViewController.h; sourceTree = "<group>"; };
+		B4EFC00A1CFC6A000014DCBD /* BTSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSettingViewController.m; sourceTree = "<group>"; };
+		B4EFC00C1CFC6B030014DCBD /* BTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTNavigationController.h; sourceTree = "<group>"; };
+		B4EFC00D1CFC6B030014DCBD /* BTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTNavigationController.m; sourceTree = "<group>"; };
+		B4EFC00F1CFC70CA0014DCBD /* BTTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTabBar.h; sourceTree = "<group>"; };
+		B4EFC0101CFC70CA0014DCBD /* BTTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTabBar.m; sourceTree = "<group>"; };
+		B4EFC0131CFC72840014DCBD /* OCBanTang.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCBanTang.pch; sourceTree = "<group>"; };
+		B4EFC0151CFC75670014DCBD /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		B4EFC0161CFC75670014DCBD /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4C00D9D1CFAC86B00CF2644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B40219F21CFC58C300C61B52 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B40219FF1CFC58C300C61B52 /* Main */,
+				B40219FB1CFC58C300C61B52 /* Home(首页) */,
+				B40219F71CFC58C300C61B52 /* Discover(发现) */,
+				B4021A081CFC58C300C61B52 /* Photo(照片) */,
+				B4021A031CFC58C300C61B52 /* Message(消息) */,
+				B40219F31CFC58C300C61B52 /* Account(账号) */,
+				B4021A0C1CFC58C300C61B52 /* Setting(设置) */,
+				B4021A071CFC58C300C61B52 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B40219F31CFC58C300C61B52 /* Account(账号) */ = {
+			isa = PBXGroup;
+			children = (
+				B40219F41CFC58C300C61B52 /* Controller */,
+				B40219F51CFC58C300C61B52 /* Model */,
+				B40219F61CFC58C300C61B52 /* View */,
+			);
+			path = "Account(账号)";
+			sourceTree = "<group>";
+		};
+		B40219F41CFC58C300C61B52 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4EFC0061CFC69F00014DCBD /* BTAccountViewController.h */,
+				B4EFC0071CFC69F00014DCBD /* BTAccountViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B40219F51CFC58C300C61B52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B40219F61CFC58C300C61B52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B40219F71CFC58C300C61B52 /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				B40219F81CFC58C300C61B52 /* Controller */,
+				B40219F91CFC58C300C61B52 /* Model */,
+				B40219FA1CFC58C300C61B52 /* View */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		B40219F81CFC58C300C61B52 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4EFC0001CFC69BE0014DCBD /* BTDiscoverViewController.h */,
+				B4EFC0011CFC69BE0014DCBD /* BTDiscoverViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B40219F91CFC58C300C61B52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B40219FA1CFC58C300C61B52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B40219FB1CFC58C300C61B52 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				B40219FC1CFC58C300C61B52 /* Controller */,
+				B40219FD1CFC58C300C61B52 /* Model */,
+				B40219FE1CFC58C300C61B52 /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		B40219FC1CFC58C300C61B52 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4EFBFFD1CFC69AB0014DCBD /* BTHomeViewController.h */,
+				B4EFBFFE1CFC69AB0014DCBD /* BTHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B40219FD1CFC58C300C61B52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B40219FE1CFC58C300C61B52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B40219FF1CFC58C300C61B52 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B4021A001CFC58C300C61B52 /* Controller */,
+				B4021A011CFC58C300C61B52 /* Model */,
+				B4021A021CFC58C300C61B52 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B4021A001CFC58C300C61B52 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4021A101CFC612800C61B52 /* BTTabBarVC.h */,
+				B4021A111CFC612800C61B52 /* BTTabBarVC.m */,
+				B4EFC00C1CFC6B030014DCBD /* BTNavigationController.h */,
+				B4EFC00D1CFC6B030014DCBD /* BTNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4021A011CFC58C300C61B52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4021A021CFC58C300C61B52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4EFC00F1CFC70CA0014DCBD /* BTTabBar.h */,
+				B4EFC0101CFC70CA0014DCBD /* BTTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4021A031CFC58C300C61B52 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				B4021A041CFC58C300C61B52 /* Controller */,
+				B4021A051CFC58C300C61B52 /* Model */,
+				B4021A061CFC58C300C61B52 /* View */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		B4021A041CFC58C300C61B52 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4EFC0031CFC69D00014DCBD /* BTMessageViewController.h */,
+				B4EFC0041CFC69D00014DCBD /* BTMessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4021A051CFC58C300C61B52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4021A061CFC58C300C61B52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4021A071CFC58C300C61B52 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				B4EFC0141CFC75670014DCBD /* Category */,
+				B4C00DA61CFAC86B00CF2644 /* AppDelegate.h */,
+				B4C00DA71CFAC86B00CF2644 /* AppDelegate.m */,
+				B4EFC0131CFC72840014DCBD /* OCBanTang.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		B4021A081CFC58C300C61B52 /* Photo(照片) */ = {
+			isa = PBXGroup;
+			children = (
+				B4021A091CFC58C300C61B52 /* Controller */,
+				B4021A0A1CFC58C300C61B52 /* Model */,
+				B4021A0B1CFC58C300C61B52 /* View */,
+			);
+			path = "Photo(照片)";
+			sourceTree = "<group>";
+		};
+		B4021A091CFC58C300C61B52 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4021A0A1CFC58C300C61B52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4021A0B1CFC58C300C61B52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4021A0C1CFC58C300C61B52 /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				B4021A0D1CFC58C300C61B52 /* Controller */,
+				B4021A0E1CFC58C300C61B52 /* Model */,
+				B4021A0F1CFC58C300C61B52 /* View */,
+			);
+			path = "Setting(设置)";
+			sourceTree = "<group>";
+		};
+		B4021A0D1CFC58C300C61B52 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4EFC0091CFC6A000014DCBD /* BTSettingViewController.h */,
+				B4EFC00A1CFC6A000014DCBD /* BTSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4021A0E1CFC58C300C61B52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4021A0F1CFC58C300C61B52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4C00D971CFAC86B00CF2644 = {
+			isa = PBXGroup;
+			children = (
+				B4C00DA21CFAC86B00CF2644 /* OCBanTang */,
+				B4C00DA11CFAC86B00CF2644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4C00DA11CFAC86B00CF2644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4C00DA01CFAC86B00CF2644 /* OCBanTang.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4C00DA21CFAC86B00CF2644 /* OCBanTang */ = {
+			isa = PBXGroup;
+			children = (
+				B40219F21CFC58C300C61B52 /* Classes */,
+				B4C00DA31CFAC86B00CF2644 /* Supporting Files */,
+			);
+			path = OCBanTang;
+			sourceTree = "<group>";
+		};
+		B4C00DA31CFAC86B00CF2644 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4C00DAF1CFAC86B00CF2644 /* Assets.xcassets */,
+				B4C00DB11CFAC86B00CF2644 /* LaunchScreen.storyboard */,
+				B4C00DB41CFAC86B00CF2644 /* Info.plist */,
+				B4C00DA41CFAC86B00CF2644 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4EFC0141CFC75670014DCBD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B4EFC0151CFC75670014DCBD /* UIView+Frame.h */,
+				B4EFC0161CFC75670014DCBD /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4C00D9F1CFAC86B00CF2644 /* OCBanTang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4C00DB71CFAC86B00CF2644 /* Build configuration list for PBXNativeTarget "OCBanTang" */;
+			buildPhases = (
+				B4C00D9C1CFAC86B00CF2644 /* Sources */,
+				B4C00D9D1CFAC86B00CF2644 /* Frameworks */,
+				B4C00D9E1CFAC86B00CF2644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCBanTang;
+			productName = OCBanTang;
+			productReference = B4C00DA01CFAC86B00CF2644 /* OCBanTang.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4C00D981CFAC86B00CF2644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BT;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "颖帆帆帆";
+				TargetAttributes = {
+					B4C00D9F1CFAC86B00CF2644 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B4C00D9B1CFAC86B00CF2644 /* Build configuration list for PBXProject "OCBanTang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4C00D971CFAC86B00CF2644;
+			productRefGroup = B4C00DA11CFAC86B00CF2644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4C00D9F1CFAC86B00CF2644 /* OCBanTang */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4C00D9E1CFAC86B00CF2644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C00DB31CFAC86B00CF2644 /* LaunchScreen.storyboard in Resources */,
+				B4C00DB01CFAC86B00CF2644 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4C00D9C1CFAC86B00CF2644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4EFC00E1CFC6B030014DCBD /* BTNavigationController.m in Sources */,
+				B4C00DA81CFAC86B00CF2644 /* AppDelegate.m in Sources */,
+				B4021A121CFC612800C61B52 /* BTTabBarVC.m in Sources */,
+				B4EFC0051CFC69D00014DCBD /* BTMessageViewController.m in Sources */,
+				B4EFC0081CFC69F00014DCBD /* BTAccountViewController.m in Sources */,
+				B4EFC0021CFC69BE0014DCBD /* BTDiscoverViewController.m in Sources */,
+				B4C00DA51CFAC86B00CF2644 /* main.m in Sources */,
+				B4EFC0111CFC70CA0014DCBD /* BTTabBar.m in Sources */,
+				B4EFBFFF1CFC69AB0014DCBD /* BTHomeViewController.m in Sources */,
+				B4EFC00B1CFC6A000014DCBD /* BTSettingViewController.m in Sources */,
+				B4EFC0171CFC75670014DCBD /* UIView+Frame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4C00DB11CFAC86B00CF2644 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4C00DB21CFAC86B00CF2644 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4C00DB51CFAC86B00CF2644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4C00DB61CFAC86B00CF2644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4C00DB81CFAC86B00CF2644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OCBanTang/Classes/Other/OCBanTang.pch;
+				INFOPLIST_FILE = OCBanTang/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingfanfanfan.OCBanTang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B4C00DB91CFAC86B00CF2644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OCBanTang/Classes/Other/OCBanTang.pch;
+				INFOPLIST_FILE = OCBanTang/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingfanfanfan.OCBanTang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4C00D9B1CFAC86B00CF2644 /* Build configuration list for PBXProject "OCBanTang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4C00DB51CFAC86B00CF2644 /* Debug */,
+				B4C00DB61CFAC86B00CF2644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4C00DB71CFAC86B00CF2644 /* Build configuration list for PBXNativeTarget "OCBanTang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4C00DB81CFAC86B00CF2644 /* Debug */,
+				B4C00DB91CFAC86B00CF2644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4C00D981CFAC86B00CF2644 /* Project object */;
+}

@@ -1,0 +1,12 @@
+//
+//  OCBanTang.pch
+//  OCBanTang
+//
+//  Created by 颖帆帆帆 on 16/5/30.
+//  Copyright © 2016年 颖帆帆帆. All rights reserved.
+//
+
+#define HYFScreenW [UIScreen mainScreen].bounds.size.width
+#define HYFScreenH [UIScreen mainScreen].bounds.size.height
+
+#import "UIView+Frame.h"
