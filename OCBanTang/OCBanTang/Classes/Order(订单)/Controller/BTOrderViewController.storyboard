@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lkp-5W-Juv">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Order View Controller-->
+        <scene sceneID="3vW-bU-jcf">
+            <objects>
+                <tableViewController id="lkp-5W-Juv" customClass="BTOrderViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" id="j87-Kn-dKD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="oun-Q5-MdY">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="44" id="16n-SK-G7r" customClass="BTOrderCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="16n-SK-G7r" id="hv8-uA-fZP">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_order_list_taobao_30x30_" translatesAutoresizingMaskIntoConstraints="NO" id="gbX-ic-h1J">
+                                                    <rect key="frame" x="18" y="7" width="30" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="30" id="jec-rL-ifS"/>
+                                                        <constraint firstAttribute="width" constant="30" id="lr5-PF-Q3v"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="淘宝订单" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OeD-Tk-ms4">
+                                                    <rect key="frame" x="58" y="13" width="60" height="18"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="gbX-ic-h1J" firstAttribute="centerY" secondItem="hv8-uA-fZP" secondAttribute="centerY" id="BDf-e2-NQx"/>
+                                                <constraint firstItem="gbX-ic-h1J" firstAttribute="leading" secondItem="hv8-uA-fZP" secondAttribute="leadingMargin" constant="10" id="EIy-J6-WTI"/>
+                                                <constraint firstItem="OeD-Tk-ms4" firstAttribute="centerY" secondItem="hv8-uA-fZP" secondAttribute="centerY" id="FFu-iP-kie"/>
+                                                <constraint firstItem="OeD-Tk-ms4" firstAttribute="leading" secondItem="gbX-ic-h1J" secondAttribute="trailing" constant="10" id="kVM-Wb-m3H"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="44" id="HiL-6I-hdg" customClass="BTOrderCell">
+                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HiL-6I-hdg" id="Foh-3n-Zps">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_order_list_jd_30x30_" translatesAutoresizingMaskIntoConstraints="NO" id="9Q1-DJ-0Lj">
+                                                    <rect key="frame" x="18" y="7" width="30" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="30" id="SNe-BD-tJJ"/>
+                                                        <constraint firstAttribute="height" constant="30" id="gcT-VJ-N74"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="京东订单" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TSL-BH-D0W">
+                                                    <rect key="frame" x="58" y="13" width="60" height="18"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="9Q1-DJ-0Lj" firstAttribute="leading" secondItem="Foh-3n-Zps" secondAttribute="leadingMargin" constant="10" id="Hed-rl-FW4"/>
+                                                <constraint firstItem="TSL-BH-D0W" firstAttribute="leading" secondItem="9Q1-DJ-0Lj" secondAttribute="trailing" constant="10" id="P1G-qM-IcT"/>
+                                                <constraint firstItem="TSL-BH-D0W" firstAttribute="centerY" secondItem="Foh-3n-Zps" secondAttribute="centerY" id="P55-PH-1BU"/>
+                                                <constraint firstItem="9Q1-DJ-0Lj" firstAttribute="centerY" secondItem="Foh-3n-Zps" secondAttribute="centerY" id="Pmh-GE-Flr"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="44" id="Azc-xd-WRU" customClass="BTOrderCell">
+                                        <rect key="frame" x="0.0" y="88" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Azc-xd-WRU" id="04P-og-mL0">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_order_list_amazon_30x30_" translatesAutoresizingMaskIntoConstraints="NO" id="4Y1-lb-rcQ">
+                                                    <rect key="frame" x="18" y="7" width="30" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="30" id="WiO-34-1lZ"/>
+                                                        <constraint firstAttribute="height" constant="30" id="hre-M4-lg3"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="亚马逊订单" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jZy-8H-hiH">
+                                                    <rect key="frame" x="58" y="13" width="75" height="18"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="jZy-8H-hiH" firstAttribute="leading" secondItem="4Y1-lb-rcQ" secondAttribute="trailing" constant="10" id="AAB-jY-CZo"/>
+                                                <constraint firstItem="4Y1-lb-rcQ" firstAttribute="leading" secondItem="04P-og-mL0" secondAttribute="leadingMargin" constant="10" id="QSd-oi-hRg"/>
+                                                <constraint firstItem="jZy-8H-hiH" firstAttribute="centerY" secondItem="04P-og-mL0" secondAttribute="centerY" id="dH5-hT-Wsd"/>
+                                                <constraint firstItem="4Y1-lb-rcQ" firstAttribute="centerY" secondItem="04P-og-mL0" secondAttribute="centerY" id="kHx-hd-gbV"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="lkp-5W-Juv" id="HK9-K8-G1e"/>
+                            <outlet property="delegate" destination="lkp-5W-Juv" id="hpe-6X-83w"/>
+                        </connections>
+                    </tableView>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zU3-np-d5b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="464.5" y="233.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_order_list_amazon_30x30_" width="30" height="30"/>
+        <image name="icon_order_list_jd_30x30_" width="30" height="30"/>
+        <image name="icon_order_list_taobao_30x30_" width="30" height="30"/>
+    </resources>
+</document>

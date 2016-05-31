@@ -7,8 +7,13 @@
 //
 
 #import "BTAccountViewController.h"
+#import "BTOrderViewController.h"
+#import "BTSettingViewController.h"
+
 
 @interface BTAccountViewController ()
+
+
 
 @end
 
@@ -17,82 +22,55 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-#pragma mark - Table view data source
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-
-    return 0;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-
-    return 0;
-}
-
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    // 添加导航栏两侧按钮
+    [self setupNavBtn];
     
-    // Configure the cell...
     
-    return cell;
 }
-*/
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
+
+#pragma mark - 添加导航栏两侧按钮
+- (void)setupNavBtn {
+    
+    // 订单按钮
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"center_order_icon_44x44_"] style:UIBarButtonItemStyleDone target:self action:@selector(orderBtnClick)];
+    
+    // 设置按钮
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"settingicon_44x44_"] style:UIBarButtonItemStylePlain target:self action:@selector(settingBtnClick)];
+    
+    self.navigationItem.leftBarButtonItem.imageInsets = UIEdgeInsetsMake(0, -10, 0, 10);
+    
+    self.navigationItem.rightBarButtonItem.imageInsets = UIEdgeInsetsMake(0, -15, 0, 15);
+    
 }
-*/
 
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
+
+#pragma mark - 点击导航栏按钮调用
+- (void)orderBtnClick {
+    NSLog(@"点击了订单按钮");
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"BTOrderViewController" bundle:nil];
+    
+    BTOrderViewController *orderVC = [storyboard instantiateInitialViewController];
+    
+    
+    
+    [self.navigationController pushViewController:orderVC animated:YES];
+    
+    
 }
-*/
 
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
+- (void)settingBtnClick {
+    NSLog(@"点击了设置按钮");
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"BTSettingViewController" bundle:nil];
+    
+    BTSettingViewController *settingVC = [storyboard instantiateInitialViewController];
+    
+    [self.navigationController pushViewController:settingVC animated:YES];
+    
 }
-*/
 
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

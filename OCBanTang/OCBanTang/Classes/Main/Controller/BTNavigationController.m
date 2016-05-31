@@ -24,14 +24,36 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    
+    if (self.childViewControllers.count > 0) {
+        
+        // 创建全局返回按钮
+        UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        
+        [backBtn setImage:[UIImage imageNamed:@"public_back_btn_44x44_"] forState:UIControlStateNormal];
+        
+        [backBtn addTarget:self action:@selector(backBtnClick) forControlEvents:UIControlEventTouchUpInside];
+        
+        [backBtn sizeToFit];
+        
+        backBtn.contentEdgeInsets = UIEdgeInsetsMake(0, -30, 0, 0);
+        
+        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backBtn];
+        
+        // push之后底部tabbar隐藏
+        viewController.hidesBottomBarWhenPushed = YES;
+        
+    }
+    
+    [super pushViewController:viewController animated:animated];
 }
-*/
+
+
+- (void)backBtnClick {
+    
+    [self popViewControllerAnimated:YES];
+}
+
 
 @end
