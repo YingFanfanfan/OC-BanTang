@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		B4021A121CFC612800C61B52 /* BTTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B4021A111CFC612800C61B52 /* BTTabBarVC.m */; };
+		B40B5F291D004A9F0095960A /* BTQingDanView.m in Sources */ = {isa = PBXBuildFile; fileRef = B40B5F281D004A9F0095960A /* BTQingDanView.m */; };
 		B438850B1CFC820A006092DC /* BTOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43885091CFC820A006092DC /* BTOrderViewController.m */; };
 		B43885141CFC8816006092DC /* BTOrderViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43885131CFC8816006092DC /* BTOrderViewController.storyboard */; };
 		B43885181CFC911E006092DC /* BTSettingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43885171CFC911E006092DC /* BTSettingViewController.storyboard */; };
 		B48095101CFD2C2F00FAA10C /* BTSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B480950F1CFD2C2F00FAA10C /* BTSettingCell.m */; };
 		B48095131CFD2DEA00FAA10C /* BTOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B48095121CFD2DEA00FAA10C /* BTOrderCell.m */; };
+		B4ABDCC81CFEFBFD006B2253 /* BTAccountTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ABDCC71CFEFBFD006B2253 /* BTAccountTopView.m */; };
+		B4ABDCCA1CFEFC16006B2253 /* BTAccountTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4ABDCC91CFEFC16006B2253 /* BTAccountTopView.xib */; };
+		B4ABDCCD1CFF1D8A006B2253 /* BTAccountMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ABDCCC1CFF1D8A006B2253 /* BTAccountMiddleView.m */; };
+		B4ABDCCF1CFF1D9D006B2253 /* BTAccountMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4ABDCCE1CFF1D9D006B2253 /* BTAccountMiddleView.xib */; };
 		B4C00DA51CFAC86B00CF2644 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C00DA41CFAC86B00CF2644 /* main.m */; };
 		B4C00DA81CFAC86B00CF2644 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C00DA71CFAC86B00CF2644 /* AppDelegate.m */; };
 		B4C00DB01CFAC86B00CF2644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4C00DAF1CFAC86B00CF2644 /* Assets.xcassets */; };
@@ -30,6 +35,8 @@
 /* Begin PBXFileReference section */
 		B4021A101CFC612800C61B52 /* BTTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTabBarVC.h; sourceTree = "<group>"; };
 		B4021A111CFC612800C61B52 /* BTTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTabBarVC.m; sourceTree = "<group>"; };
+		B40B5F271D004A9F0095960A /* BTQingDanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTQingDanView.h; sourceTree = "<group>"; };
+		B40B5F281D004A9F0095960A /* BTQingDanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTQingDanView.m; sourceTree = "<group>"; };
 		B43885081CFC820A006092DC /* BTOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTOrderViewController.h; sourceTree = "<group>"; };
 		B43885091CFC820A006092DC /* BTOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTOrderViewController.m; sourceTree = "<group>"; };
 		B43885131CFC8816006092DC /* BTOrderViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BTOrderViewController.storyboard; sourceTree = "<group>"; };
@@ -38,6 +45,12 @@
 		B480950F1CFD2C2F00FAA10C /* BTSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSettingCell.m; sourceTree = "<group>"; };
 		B48095111CFD2DEA00FAA10C /* BTOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTOrderCell.h; sourceTree = "<group>"; };
 		B48095121CFD2DEA00FAA10C /* BTOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTOrderCell.m; sourceTree = "<group>"; };
+		B4ABDCC61CFEFBFD006B2253 /* BTAccountTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAccountTopView.h; sourceTree = "<group>"; };
+		B4ABDCC71CFEFBFD006B2253 /* BTAccountTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAccountTopView.m; sourceTree = "<group>"; };
+		B4ABDCC91CFEFC16006B2253 /* BTAccountTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTAccountTopView.xib; sourceTree = "<group>"; };
+		B4ABDCCB1CFF1D8A006B2253 /* BTAccountMiddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAccountMiddleView.h; sourceTree = "<group>"; };
+		B4ABDCCC1CFF1D8A006B2253 /* BTAccountMiddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAccountMiddleView.m; sourceTree = "<group>"; };
+		B4ABDCCE1CFF1D9D006B2253 /* BTAccountMiddleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTAccountMiddleView.xib; sourceTree = "<group>"; };
 		B4C00DA01CFAC86B00CF2644 /* OCBanTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCBanTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C00DA41CFAC86B00CF2644 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B4C00DA61CFAC86B00CF2644 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +133,13 @@
 		B40219F61CFC58C300C61B52 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B4ABDCC61CFEFBFD006B2253 /* BTAccountTopView.h */,
+				B4ABDCC71CFEFBFD006B2253 /* BTAccountTopView.m */,
+				B4ABDCC91CFEFC16006B2253 /* BTAccountTopView.xib */,
+				B4ABDCCB1CFF1D8A006B2253 /* BTAccountMiddleView.h */,
+				B4ABDCCC1CFF1D8A006B2253 /* BTAccountMiddleView.m */,
+				B4ABDCCE1CFF1D9D006B2253 /* BTAccountMiddleView.xib */,
+				B4ABDCD71CFF27E8006B2253 /* BottomView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -374,6 +394,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		B4ABDCD71CFF27E8006B2253 /* BottomView */ = {
+			isa = PBXGroup;
+			children = (
+				B40B5F271D004A9F0095960A /* BTQingDanView.h */,
+				B40B5F281D004A9F0095960A /* BTQingDanView.m */,
+			);
+			path = BottomView;
+			sourceTree = "<group>";
+		};
 		B4C00D971CFAC86B00CF2644 = {
 			isa = PBXGroup;
 			children = (
@@ -478,9 +507,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B43885181CFC911E006092DC /* BTSettingViewController.storyboard in Resources */,
+				B4ABDCCA1CFEFC16006B2253 /* BTAccountTopView.xib in Resources */,
 				B4C00DB31CFAC86B00CF2644 /* LaunchScreen.storyboard in Resources */,
 				B43885141CFC8816006092DC /* BTOrderViewController.storyboard in Resources */,
 				B4C00DB01CFAC86B00CF2644 /* Assets.xcassets in Resources */,
+				B4ABDCCF1CFF1D9D006B2253 /* BTAccountMiddleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,10 +523,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B48095101CFD2C2F00FAA10C /* BTSettingCell.m in Sources */,
+				B4ABDCC81CFEFBFD006B2253 /* BTAccountTopView.m in Sources */,
 				B4EFC00E1CFC6B030014DCBD /* BTNavigationController.m in Sources */,
 				B4C00DA81CFAC86B00CF2644 /* AppDelegate.m in Sources */,
 				B4021A121CFC612800C61B52 /* BTTabBarVC.m in Sources */,
 				B438850B1CFC820A006092DC /* BTOrderViewController.m in Sources */,
+				B40B5F291D004A9F0095960A /* BTQingDanView.m in Sources */,
 				B4EFC0051CFC69D00014DCBD /* BTMessageViewController.m in Sources */,
 				B4EFC0081CFC69F00014DCBD /* BTAccountViewController.m in Sources */,
 				B4EFC0021CFC69BE0014DCBD /* BTDiscoverViewController.m in Sources */,
@@ -503,6 +536,7 @@
 				B4EFC0111CFC70CA0014DCBD /* BTTabBar.m in Sources */,
 				B48095131CFD2DEA00FAA10C /* BTOrderCell.m in Sources */,
 				B4EFBFFF1CFC69AB0014DCBD /* BTHomeViewController.m in Sources */,
+				B4ABDCCD1CFF1D8A006B2253 /* BTAccountMiddleView.m in Sources */,
 				B4EFC00B1CFC6A000014DCBD /* BTSettingViewController.m in Sources */,
 				B4EFC0171CFC75670014DCBD /* UIView+Frame.m in Sources */,
 			);

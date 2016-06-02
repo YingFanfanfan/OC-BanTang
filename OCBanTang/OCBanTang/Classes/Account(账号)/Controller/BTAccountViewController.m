@@ -9,11 +9,12 @@
 #import "BTAccountViewController.h"
 #import "BTOrderViewController.h"
 #import "BTSettingViewController.h"
-
+#import "BTAccountTopView.h"
+#import "BTAccountMiddleView.h"
 
 @interface BTAccountViewController ()
 
-
+@property (nonatomic, strong) BTAccountTopView *topView;
 
 @end
 
@@ -22,12 +23,39 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor whiteColor];
     
     // 添加导航栏两侧按钮
     [self setupNavBtn];
     
+    [self setupTopView];
+    [self setupMiddleView];
+    
     
 }
+
+#pragma mark - 添加topView
+- (void)setupTopView {
+    
+    BTAccountTopView *topView = [[[NSBundle mainBundle] loadNibNamed:@"BTAccountTopView" owner:self options:nil] firstObject];
+    
+    topView.frame = CGRectMake(0, 64, HYFScreenW, 131);
+    
+    _topView = topView;
+    
+    [self.view addSubview:topView];
+    
+}
+
+- (void)setupMiddleView {
+    
+    BTAccountMiddleView *middleView = [[[NSBundle mainBundle] loadNibNamed:@"BTAccountMiddleView" owner:self options:nil] firstObject];
+    
+    middleView.frame = CGRectMake(0, _topView.hyf_h + 64, HYFScreenW, 44);
+    
+    [self.view addSubview:middleView];
+}
+
 
 
 #pragma mark - 添加导航栏两侧按钮
@@ -48,13 +76,10 @@
 
 #pragma mark - 点击导航栏按钮调用
 - (void)orderBtnClick {
-    NSLog(@"点击了订单按钮");
     
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"BTOrderViewController" bundle:nil];
     
     BTOrderViewController *orderVC = [storyboard instantiateInitialViewController];
-    
-    
     
     [self.navigationController pushViewController:orderVC animated:YES];
     
@@ -62,7 +87,6 @@
 }
 
 - (void)settingBtnClick {
-    NSLog(@"点击了设置按钮");
     
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"BTSettingViewController" bundle:nil];
     

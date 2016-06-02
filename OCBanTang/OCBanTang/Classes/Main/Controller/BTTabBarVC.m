@@ -64,7 +64,7 @@
     
     // 账号
     BTAccountViewController *accountVC = [[BTAccountViewController alloc] init];
-    [self setupOneChildVC:accountVC image:@"tab_我的_22x23_" selectedImage:@"tab_我的_pressed_22x23_" title:@"个人中心"];
+    [self setupOneChildVC:accountVC image:@"tab_我的_22x23_" selectedImage:@"tab_我的_pressed_22x23_" title:@"👄"];
     
 }
 

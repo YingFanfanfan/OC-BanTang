@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="yKJ-bP-o0e" customClass="BTAccountMiddleView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pGG-U5-BF5">
+                    <rect key="frame" x="0.0" y="1" width="124.5" height="42"/>
+                    <state key="normal" title="单品">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="danpinClick:" destination="yKJ-bP-o0e" eventType="touchUpInside" id="78x-AN-yc1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5y-cx-jz9">
+                    <rect key="frame" x="125" y="1" width="124" height="42"/>
+                    <state key="normal" title="清单">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="qingdanClick:" destination="yKJ-bP-o0e" eventType="touchUpInside" id="ump-Yn-1v0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huV-uf-ClL">
+                    <rect key="frame" x="250" y="1" width="124.5" height="42"/>
+                    <state key="normal" title="发布">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="fabuClick:" destination="yKJ-bP-o0e" eventType="touchUpInside" id="KUD-9G-jJb"/>
+                    </connections>
+                </button>
+                <view alpha="0.050000000000000003" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LsX-Hd-y9v">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="1"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="g9w-Lo-PHD"/>
+                    </constraints>
+                </view>
+                <view alpha="0.050000000000000003" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ReK-oI-r2k">
+                    <rect key="frame" x="0.0" y="43" width="375" height="1"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="NGZ-sA-h7p"/>
+                    </constraints>
+                </view>
+                <view alpha="0.050000000000000003" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oj6-hY-Nao">
+                    <rect key="frame" x="124" y="14" width="1" height="15"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="Ot7-BL-qGg"/>
+                        <constraint firstAttribute="height" constant="15" id="SW2-6P-pWh"/>
+                    </constraints>
+                </view>
+                <view alpha="0.050000000000000003" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bau-sd-zpv">
+                    <rect key="frame" x="249" y="14" width="1" height="15"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="LBY-IR-qGC"/>
+                        <constraint firstAttribute="width" constant="1" id="qYZ-re-ANa"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n90-t7-wTY">
+                    <rect key="frame" x="47.5" y="40" width="30" height="3"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="3" id="RtA-cU-N2Z"/>
+                        <constraint firstAttribute="width" constant="30" id="Ubw-ab-F7Q"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ReK-oI-r2k" secondAttribute="bottom" id="1AA-SK-yPv"/>
+                <constraint firstItem="huV-uf-ClL" firstAttribute="height" secondItem="pGG-U5-BF5" secondAttribute="height" id="3vK-so-cwc"/>
+                <constraint firstItem="huV-uf-ClL" firstAttribute="width" secondItem="pGG-U5-BF5" secondAttribute="width" id="A6S-8G-3dD"/>
+                <constraint firstItem="pGG-U5-BF5" firstAttribute="leading" secondItem="yKJ-bP-o0e" secondAttribute="leading" id="ECG-4I-E5b"/>
+                <constraint firstItem="l5y-cx-jz9" firstAttribute="width" secondItem="pGG-U5-BF5" secondAttribute="width" id="I0H-3v-Qba"/>
+                <constraint firstItem="LsX-Hd-y9v" firstAttribute="leading" secondItem="yKJ-bP-o0e" secondAttribute="leading" id="Io8-p4-ZlP"/>
+                <constraint firstItem="LsX-Hd-y9v" firstAttribute="top" secondItem="yKJ-bP-o0e" secondAttribute="top" id="Jtj-YX-3kb"/>
+                <constraint firstAttribute="trailing" secondItem="ReK-oI-r2k" secondAttribute="trailing" id="Mz4-99-9J3"/>
+                <constraint firstAttribute="bottom" secondItem="l5y-cx-jz9" secondAttribute="bottom" constant="1" id="P2k-l2-cKz"/>
+                <constraint firstItem="l5y-cx-jz9" firstAttribute="leading" secondItem="pGG-U5-BF5" secondAttribute="trailing" constant="1" id="Pcs-2P-1nW"/>
+                <constraint firstAttribute="trailing" secondItem="LsX-Hd-y9v" secondAttribute="trailing" id="Rar-0H-8y6"/>
+                <constraint firstItem="huV-uf-ClL" firstAttribute="leading" secondItem="bau-sd-zpv" secondAttribute="trailing" id="T18-0N-3jX"/>
+                <constraint firstItem="pGG-U5-BF5" firstAttribute="top" secondItem="yKJ-bP-o0e" secondAttribute="top" constant="1" id="UXg-JD-Tbd"/>
+                <constraint firstAttribute="trailing" secondItem="huV-uf-ClL" secondAttribute="trailing" id="VOJ-3L-8Va"/>
+                <constraint firstItem="l5y-cx-jz9" firstAttribute="top" secondItem="yKJ-bP-o0e" secondAttribute="top" constant="1" id="XvN-wm-vt9"/>
+                <constraint firstItem="huV-uf-ClL" firstAttribute="top" secondItem="yKJ-bP-o0e" secondAttribute="top" constant="1" id="elu-Nx-8xh"/>
+                <constraint firstAttribute="bottom" secondItem="pGG-U5-BF5" secondAttribute="bottom" constant="1" id="iw4-29-egl"/>
+                <constraint firstItem="oj6-hY-Nao" firstAttribute="leading" secondItem="pGG-U5-BF5" secondAttribute="trailing" id="jMc-Aa-2rk"/>
+                <constraint firstItem="oj6-hY-Nao" firstAttribute="centerY" secondItem="pGG-U5-BF5" secondAttribute="centerY" id="o6h-KP-8Xz"/>
+                <constraint firstItem="ReK-oI-r2k" firstAttribute="top" secondItem="n90-t7-wTY" secondAttribute="bottom" id="oLh-EG-FPm"/>
+                <constraint firstItem="n90-t7-wTY" firstAttribute="centerX" secondItem="pGG-U5-BF5" secondAttribute="centerX" id="rSZ-Lk-DHs"/>
+                <constraint firstItem="l5y-cx-jz9" firstAttribute="height" secondItem="pGG-U5-BF5" secondAttribute="height" id="up7-VD-5Zk"/>
+                <constraint firstItem="huV-uf-ClL" firstAttribute="leading" secondItem="l5y-cx-jz9" secondAttribute="trailing" constant="1" id="vtC-1L-gbn"/>
+                <constraint firstAttribute="bottom" secondItem="huV-uf-ClL" secondAttribute="bottom" constant="1" id="xbp-nA-cXD"/>
+                <constraint firstItem="bau-sd-zpv" firstAttribute="centerY" secondItem="huV-uf-ClL" secondAttribute="centerY" id="yxG-cp-ItF"/>
+                <constraint firstItem="ReK-oI-r2k" firstAttribute="leading" secondItem="yKJ-bP-o0e" secondAttribute="leading" id="yy0-Ri-XMS"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="redView" destination="rSZ-Lk-DHs" id="5FT-tv-l1X"/>
+            </connections>
+            <point key="canvasLocation" x="158.5" y="417"/>
+        </view>
+    </objects>
+</document>
