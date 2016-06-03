@@ -14,5 +14,6 @@
 @property CGFloat hyf_y;
 @property CGFloat hyf_w;
 @property CGFloat hyf_h;
+@property CGFloat hyf_center_x;
 
 @end

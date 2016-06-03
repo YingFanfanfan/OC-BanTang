@@ -10,6 +10,16 @@
 
 @implementation UIView (Frame)
 
+- (CGFloat)hyf_center_x {
+    return self.center.x;
+}
+
+- (void)setHyf_center_x:(CGFloat)hyf_center_x {
+    CGPoint center = self.center;
+    center.x = hyf_center_x;
+    self.center = center;
+}
+
 - (CGFloat)hyf_x {
     return self.frame.origin.x;
 }

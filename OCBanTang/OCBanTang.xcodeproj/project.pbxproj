@@ -22,6 +22,9 @@
 		B4C00DA81CFAC86B00CF2644 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C00DA71CFAC86B00CF2644 /* AppDelegate.m */; };
 		B4C00DB01CFAC86B00CF2644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4C00DAF1CFAC86B00CF2644 /* Assets.xcassets */; };
 		B4C00DB31CFAC86B00CF2644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4C00DB11CFAC86B00CF2644 /* LaunchScreen.storyboard */; };
+		B4CA031C1D004DE20090B20F /* BTLikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA031B1D004DE20090B20F /* BTLikeViewController.m */; };
+		B4CA031F1D004E020090B20F /* BTCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA031E1D004E020090B20F /* BTCommentViewController.m */; };
+		B4CA03221D004E170090B20F /* BTNotifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA03211D004E170090B20F /* BTNotifyViewController.m */; };
 		B4EFBFFF1CFC69AB0014DCBD /* BTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EFBFFE1CFC69AB0014DCBD /* BTHomeViewController.m */; };
 		B4EFC0021CFC69BE0014DCBD /* BTDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EFC0011CFC69BE0014DCBD /* BTDiscoverViewController.m */; };
 		B4EFC0051CFC69D00014DCBD /* BTMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EFC0041CFC69D00014DCBD /* BTMessageViewController.m */; };
@@ -58,6 +61,12 @@
 		B4C00DAF1CFAC86B00CF2644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4C00DB21CFAC86B00CF2644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4C00DB41CFAC86B00CF2644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4CA031A1D004DE20090B20F /* BTLikeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTLikeViewController.h; sourceTree = "<group>"; };
+		B4CA031B1D004DE20090B20F /* BTLikeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTLikeViewController.m; sourceTree = "<group>"; };
+		B4CA031D1D004E020090B20F /* BTCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCommentViewController.h; sourceTree = "<group>"; };
+		B4CA031E1D004E020090B20F /* BTCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCommentViewController.m; sourceTree = "<group>"; };
+		B4CA03201D004E170090B20F /* BTNotifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTNotifyViewController.h; sourceTree = "<group>"; };
+		B4CA03211D004E170090B20F /* BTNotifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTNotifyViewController.m; sourceTree = "<group>"; };
 		B4EFBFFD1CFC69AB0014DCBD /* BTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHomeViewController.h; sourceTree = "<group>"; };
 		B4EFBFFE1CFC69AB0014DCBD /* BTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHomeViewController.m; sourceTree = "<group>"; };
 		B4EFC0001CFC69BE0014DCBD /* BTDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDiscoverViewController.h; sourceTree = "<group>"; };
@@ -276,6 +285,12 @@
 		B4021A061CFC58C300C61B52 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B4CA031A1D004DE20090B20F /* BTLikeViewController.h */,
+				B4CA031B1D004DE20090B20F /* BTLikeViewController.m */,
+				B4CA031D1D004E020090B20F /* BTCommentViewController.h */,
+				B4CA031E1D004E020090B20F /* BTCommentViewController.m */,
+				B4CA03201D004E170090B20F /* BTNotifyViewController.h */,
+				B4CA03211D004E170090B20F /* BTNotifyViewController.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -525,14 +540,17 @@
 				B48095101CFD2C2F00FAA10C /* BTSettingCell.m in Sources */,
 				B4ABDCC81CFEFBFD006B2253 /* BTAccountTopView.m in Sources */,
 				B4EFC00E1CFC6B030014DCBD /* BTNavigationController.m in Sources */,
+				B4CA031F1D004E020090B20F /* BTCommentViewController.m in Sources */,
 				B4C00DA81CFAC86B00CF2644 /* AppDelegate.m in Sources */,
 				B4021A121CFC612800C61B52 /* BTTabBarVC.m in Sources */,
+				B4CA031C1D004DE20090B20F /* BTLikeViewController.m in Sources */,
 				B438850B1CFC820A006092DC /* BTOrderViewController.m in Sources */,
 				B40B5F291D004A9F0095960A /* BTQingDanView.m in Sources */,
 				B4EFC0051CFC69D00014DCBD /* BTMessageViewController.m in Sources */,
 				B4EFC0081CFC69F00014DCBD /* BTAccountViewController.m in Sources */,
 				B4EFC0021CFC69BE0014DCBD /* BTDiscoverViewController.m in Sources */,
 				B4C00DA51CFAC86B00CF2644 /* main.m in Sources */,
+				B4CA03221D004E170090B20F /* BTNotifyViewController.m in Sources */,
 				B4EFC0111CFC70CA0014DCBD /* BTTabBar.m in Sources */,
 				B48095131CFD2DEA00FAA10C /* BTOrderCell.m in Sources */,
 				B4EFBFFF1CFC69AB0014DCBD /* BTHomeViewController.m in Sources */,
