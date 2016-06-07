@@ -12,6 +12,8 @@
 		B438850B1CFC820A006092DC /* BTOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43885091CFC820A006092DC /* BTOrderViewController.m */; };
 		B43885141CFC8816006092DC /* BTOrderViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43885131CFC8816006092DC /* BTOrderViewController.storyboard */; };
 		B43885181CFC911E006092DC /* BTSettingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43885171CFC911E006092DC /* BTSettingViewController.storyboard */; };
+		B44D31FD1D0707BB0049B231 /* BTListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44D31FC1D0707BB0049B231 /* BTListViewController.m */; };
+		B44D32001D070A8C0049B231 /* BTDanPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44D31FF1D070A8C0049B231 /* BTDanPinViewController.m */; };
 		B48095101CFD2C2F00FAA10C /* BTSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B480950F1CFD2C2F00FAA10C /* BTSettingCell.m */; };
 		B48095131CFD2DEA00FAA10C /* BTOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B48095121CFD2DEA00FAA10C /* BTOrderCell.m */; };
 		B4ABDCC81CFEFBFD006B2253 /* BTAccountTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ABDCC71CFEFBFD006B2253 /* BTAccountTopView.m */; };
@@ -22,11 +24,12 @@
 		B4C00DA81CFAC86B00CF2644 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C00DA71CFAC86B00CF2644 /* AppDelegate.m */; };
 		B4C00DB01CFAC86B00CF2644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4C00DAF1CFAC86B00CF2644 /* Assets.xcassets */; };
 		B4C00DB31CFAC86B00CF2644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4C00DB11CFAC86B00CF2644 /* LaunchScreen.storyboard */; };
+		B4C2D6C41D05734B00D84A48 /* BTDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C2D6C31D05734B00D84A48 /* BTDiscoverViewController.m */; };
+		B4C2D6D81D05762000D84A48 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C2D6D71D05762000D84A48 /* UIBarButtonItem+Item.m */; };
 		B4CA031C1D004DE20090B20F /* BTLikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA031B1D004DE20090B20F /* BTLikeViewController.m */; };
 		B4CA031F1D004E020090B20F /* BTCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA031E1D004E020090B20F /* BTCommentViewController.m */; };
 		B4CA03221D004E170090B20F /* BTNotifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA03211D004E170090B20F /* BTNotifyViewController.m */; };
 		B4EFBFFF1CFC69AB0014DCBD /* BTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EFBFFE1CFC69AB0014DCBD /* BTHomeViewController.m */; };
-		B4EFC0021CFC69BE0014DCBD /* BTDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EFC0011CFC69BE0014DCBD /* BTDiscoverViewController.m */; };
 		B4EFC0051CFC69D00014DCBD /* BTMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EFC0041CFC69D00014DCBD /* BTMessageViewController.m */; };
 		B4EFC0081CFC69F00014DCBD /* BTAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EFC0071CFC69F00014DCBD /* BTAccountViewController.m */; };
 		B4EFC00B1CFC6A000014DCBD /* BTSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EFC00A1CFC6A000014DCBD /* BTSettingViewController.m */; };
@@ -44,6 +47,10 @@
 		B43885091CFC820A006092DC /* BTOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTOrderViewController.m; sourceTree = "<group>"; };
 		B43885131CFC8816006092DC /* BTOrderViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BTOrderViewController.storyboard; sourceTree = "<group>"; };
 		B43885171CFC911E006092DC /* BTSettingViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BTSettingViewController.storyboard; sourceTree = "<group>"; };
+		B44D31FB1D0707BB0049B231 /* BTListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTListViewController.h; path = ../../BTListViewController.h; sourceTree = "<group>"; };
+		B44D31FC1D0707BB0049B231 /* BTListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTListViewController.m; path = ../../BTListViewController.m; sourceTree = "<group>"; };
+		B44D31FE1D070A8C0049B231 /* BTDanPinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDanPinViewController.h; sourceTree = "<group>"; };
+		B44D31FF1D070A8C0049B231 /* BTDanPinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDanPinViewController.m; sourceTree = "<group>"; };
 		B480950E1CFD2C2F00FAA10C /* BTSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSettingCell.h; sourceTree = "<group>"; };
 		B480950F1CFD2C2F00FAA10C /* BTSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSettingCell.m; sourceTree = "<group>"; };
 		B48095111CFD2DEA00FAA10C /* BTOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTOrderCell.h; sourceTree = "<group>"; };
@@ -61,6 +68,10 @@
 		B4C00DAF1CFAC86B00CF2644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4C00DB21CFAC86B00CF2644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4C00DB41CFAC86B00CF2644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4C2D6C21D05734B00D84A48 /* BTDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTDiscoverViewController.h; path = ../BTDiscoverViewController.h; sourceTree = "<group>"; };
+		B4C2D6C31D05734B00D84A48 /* BTDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTDiscoverViewController.m; path = ../BTDiscoverViewController.m; sourceTree = "<group>"; };
+		B4C2D6D61D05762000D84A48 /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		B4C2D6D71D05762000D84A48 /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
 		B4CA031A1D004DE20090B20F /* BTLikeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTLikeViewController.h; sourceTree = "<group>"; };
 		B4CA031B1D004DE20090B20F /* BTLikeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTLikeViewController.m; sourceTree = "<group>"; };
 		B4CA031D1D004E020090B20F /* BTCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCommentViewController.h; sourceTree = "<group>"; };
@@ -69,8 +80,6 @@
 		B4CA03211D004E170090B20F /* BTNotifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTNotifyViewController.m; sourceTree = "<group>"; };
 		B4EFBFFD1CFC69AB0014DCBD /* BTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHomeViewController.h; sourceTree = "<group>"; };
 		B4EFBFFE1CFC69AB0014DCBD /* BTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHomeViewController.m; sourceTree = "<group>"; };
-		B4EFC0001CFC69BE0014DCBD /* BTDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDiscoverViewController.h; sourceTree = "<group>"; };
-		B4EFC0011CFC69BE0014DCBD /* BTDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDiscoverViewController.m; sourceTree = "<group>"; };
 		B4EFC0031CFC69D00014DCBD /* BTMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMessageViewController.h; sourceTree = "<group>"; };
 		B4EFC0041CFC69D00014DCBD /* BTMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMessageViewController.m; sourceTree = "<group>"; };
 		B4EFC0061CFC69F00014DCBD /* BTAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAccountViewController.h; sourceTree = "<group>"; };
@@ -156,20 +165,11 @@
 		B40219F71CFC58C300C61B52 /* Discover(发现) */ = {
 			isa = PBXGroup;
 			children = (
-				B40219F81CFC58C300C61B52 /* Controller */,
+				B4C2D6C51D05735F00D84A48 /* Controller */,
 				B40219F91CFC58C300C61B52 /* Model */,
 				B40219FA1CFC58C300C61B52 /* View */,
 			);
 			path = "Discover(发现)";
-			sourceTree = "<group>";
-		};
-		B40219F81CFC58C300C61B52 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				B4EFC0001CFC69BE0014DCBD /* BTDiscoverViewController.h */,
-				B4EFC0011CFC69BE0014DCBD /* BTDiscoverViewController.m */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		B40219F91CFC58C300C61B52 /* Model */ = {
@@ -454,9 +454,88 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B4C2D6C51D05735F00D84A48 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4C2D6C21D05734B00D84A48 /* BTDiscoverViewController.h */,
+				B4C2D6C31D05734B00D84A48 /* BTDiscoverViewController.m */,
+				B4C2D6D21D0573BA00D84A48 /* List */,
+				B4C2D6CE1D0573BA00D84A48 /* DanPing */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4C2D6CE1D0573BA00D84A48 /* DanPing */ = {
+			isa = PBXGroup;
+			children = (
+				B4C2D6CF1D0573BA00D84A48 /* Controller */,
+				B4C2D6D01D0573BA00D84A48 /* Model */,
+				B4C2D6D11D0573BA00D84A48 /* View */,
+			);
+			path = DanPing;
+			sourceTree = "<group>";
+		};
+		B4C2D6CF1D0573BA00D84A48 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B44D31FE1D070A8C0049B231 /* BTDanPinViewController.h */,
+				B44D31FF1D070A8C0049B231 /* BTDanPinViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4C2D6D01D0573BA00D84A48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4C2D6D11D0573BA00D84A48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4C2D6D21D0573BA00D84A48 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				B4C2D6D31D0573BA00D84A48 /* Controller */,
+				B4C2D6D41D0573BA00D84A48 /* Model */,
+				B4C2D6D51D0573BA00D84A48 /* View */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		B4C2D6D31D0573BA00D84A48 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B44D31FB1D0707BB0049B231 /* BTListViewController.h */,
+				B44D31FC1D0707BB0049B231 /* BTListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4C2D6D41D0573BA00D84A48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4C2D6D51D0573BA00D84A48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B4EFC0141CFC75670014DCBD /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				B4C2D6D61D05762000D84A48 /* UIBarButtonItem+Item.h */,
+				B4C2D6D71D05762000D84A48 /* UIBarButtonItem+Item.m */,
 				B4EFC0151CFC75670014DCBD /* UIView+Frame.h */,
 				B4EFC0161CFC75670014DCBD /* UIView+Frame.m */,
 			);
@@ -495,6 +574,7 @@
 				TargetAttributes = {
 					B4C00D9F1CFAC86B00CF2644 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5WAPD3YR35;
 					};
 				};
 			};
@@ -544,18 +624,21 @@
 				B4C00DA81CFAC86B00CF2644 /* AppDelegate.m in Sources */,
 				B4021A121CFC612800C61B52 /* BTTabBarVC.m in Sources */,
 				B4CA031C1D004DE20090B20F /* BTLikeViewController.m in Sources */,
+				B44D32001D070A8C0049B231 /* BTDanPinViewController.m in Sources */,
 				B438850B1CFC820A006092DC /* BTOrderViewController.m in Sources */,
 				B40B5F291D004A9F0095960A /* BTQingDanView.m in Sources */,
 				B4EFC0051CFC69D00014DCBD /* BTMessageViewController.m in Sources */,
 				B4EFC0081CFC69F00014DCBD /* BTAccountViewController.m in Sources */,
-				B4EFC0021CFC69BE0014DCBD /* BTDiscoverViewController.m in Sources */,
 				B4C00DA51CFAC86B00CF2644 /* main.m in Sources */,
 				B4CA03221D004E170090B20F /* BTNotifyViewController.m in Sources */,
 				B4EFC0111CFC70CA0014DCBD /* BTTabBar.m in Sources */,
+				B44D31FD1D0707BB0049B231 /* BTListViewController.m in Sources */,
 				B48095131CFD2DEA00FAA10C /* BTOrderCell.m in Sources */,
 				B4EFBFFF1CFC69AB0014DCBD /* BTHomeViewController.m in Sources */,
 				B4ABDCCD1CFF1D8A006B2253 /* BTAccountMiddleView.m in Sources */,
+				B4C2D6C41D05734B00D84A48 /* BTDiscoverViewController.m in Sources */,
 				B4EFC00B1CFC6A000014DCBD /* BTSettingViewController.m in Sources */,
+				B4C2D6D81D05762000D84A48 /* UIBarButtonItem+Item.m in Sources */,
 				B4EFC0171CFC75670014DCBD /* UIView+Frame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -663,6 +746,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = OCBanTang/Classes/Other/OCBanTang.pch;
 				INFOPLIST_FILE = OCBanTang/Info.plist;
@@ -670,6 +755,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yingfanfanfan.OCBanTang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -678,6 +764,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = OCBanTang/Classes/Other/OCBanTang.pch;
 				INFOPLIST_FILE = OCBanTang/Info.plist;
@@ -685,6 +773,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yingfanfanfan.OCBanTang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

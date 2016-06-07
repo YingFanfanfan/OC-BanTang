@@ -23,7 +23,7 @@
     
     self.tableView.sectionHeaderHeight = 1;
     
-    self.tableView.contentInset = UIEdgeInsetsMake(5, 0, 0, 0);
+    self.tableView.contentInset = UIEdgeInsetsMake(5, 0, 0, 0); 
     
 }
 

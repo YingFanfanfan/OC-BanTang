@@ -28,6 +28,9 @@
         // 设置按钮自适应
         [photoBtn sizeToFit];
         
+        // 监听按钮点击
+        [photoBtn addTarget:self action:@selector(photoBtnClick) forControlEvents:UIControlEventTouchUpInside];
+        
         // 添加按钮
         [self addSubview:photoBtn];
         
@@ -70,6 +73,17 @@
     }
     
     self.photoBtn.center = CGPointMake(self.hyf_w * 0.5, self.hyf_h * 0.5);
+}
+
+
+- (void)photoBtnClick {
+    
+    UIImagePickerController *photoVC = [[UIImagePickerController alloc] init];
+    
+    photoVC.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+    
+    [self.window.rootViewController presentViewController:photoVC animated:YES completion:nil];
+
 }
 
 
